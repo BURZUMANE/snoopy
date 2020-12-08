@@ -1,3 +1,7 @@
+
+![Alt text](https://i.ibb.co/5MYNXdq/Screenshot-2020-12-08-at-15-09-02.png?raw=true "Title")
+
+
 npm install
 
 # Magetic
@@ -27,3 +31,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
