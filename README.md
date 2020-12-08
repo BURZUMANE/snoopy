@@ -2,6 +2,12 @@
 ![Alt text](https://i.ibb.co/5MYNXdq/Screenshot-2020-12-08-at-15-09-02.png?raw=true "Title")
 
 
+if you don't have the angular CLI installed
+
+on mac use sudo
+npm install -g @angular/cli
+
+
 npm install
 
 # Magetic
