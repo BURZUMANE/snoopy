@@ -34,17 +34,20 @@ img{
 
 .grid {
   display: grid;
-  grid-template-columns:auto 20% auto auto;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
   grid-gap: 20px;
   align-items: stretch;
 }
 
 .grid-v-2{
-  grid-template-columns:auto auto 40%;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr;
 }
 
 .grid-v-3{
-  grid-template-columns:auto 70%;
+  grid-template-columns: 3fr 1fr 2fr;
+  grid-template-rows: 1fr;
 }
 
 .grid > article {
