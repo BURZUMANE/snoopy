@@ -1,0 +1,29 @@
+nav{
+  height: 60px;
+}
+
+.w-90 {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.shadow {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.nav-item {
+  width: 150px;
+  margin: auto 0;
+}
+
+.icon {
+  background-color: #f0f1f0;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}

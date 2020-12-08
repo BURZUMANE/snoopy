@@ -1,0 +1,28 @@
+*{
+  color: #f0f1f0;
+}
+
+.menu-text{
+  padding-left: 10px;
+}
+
+.sider{
+  height: 100%;
+  width: 50px;
+  padding: 10px;
+}
+
+.sider-expanded{
+  width: 220px;
+}
+
+.menu-icon{
+  color: white;
+}
+
+.logo{
+  display: none;
+}
+.showLogo{
+display: block;
+}

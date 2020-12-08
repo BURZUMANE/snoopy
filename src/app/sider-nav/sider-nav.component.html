@@ -1,0 +1,31 @@
+<div class="sider" [ngClass]="{'sider-expanded': isOpened}">
+  <div class="logo-wrapper d-flex justify-content-between">
+    <img
+      class="logo"
+      [ngClass]="{'showLogo': isOpened}"
+       src="https://www.magetic.com/img/logo.png" width="auto" height="25" alt="magetic">
+    <div>
+      <i class="fas fa-ellipsis-v menu-icon" (click)="toggleMenu()" *ngIf="isOpened"></i>
+      <i class="fas fa-chevron-right" (click)="toggleMenu()" *ngIf="!isOpened"></i>
+
+    </div>
+  </div>
+  <ul class="p-0 pt-2">
+    <li>
+      <i class="fas fa-plus"></i>
+      <span class="menu-text" *ngIf="isOpened">about</span>
+    </li>
+    <li>
+      <i class="fas fa-plus"></i>
+      <span class="menu-text" *ngIf="isOpened">work</span></li>
+    <li>
+      <i class="fas fa-plus"></i>
+      <span class="menu-text" *ngIf="isOpened">team</span></li>
+    <li>
+      <i class="fas fa-plus"></i>
+      <span class="menu-text" *ngIf="isOpened">office</span></li>
+    <li>
+      <i class="fas fa-plus"></i>
+      <span class="menu-text" *ngIf="isOpened">sport</span></li>
+  </ul>
+</div>
